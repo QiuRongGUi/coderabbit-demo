@@ -21,9 +21,24 @@
     
     [self shaow];
     
+    
+    
+    
 }
 
 - (void)shaow {
+    
+}
+
+- (void)shaow1 {
+    
+}
+
+- (void)shaow2 {
+    
+}
+
+- (void)shaow3 {
     
 }
 
