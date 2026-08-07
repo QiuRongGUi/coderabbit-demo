@@ -17,6 +17,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [self shaow];
+    
+}
 
+- (void)shaow {
+    
+}
 
 @end
