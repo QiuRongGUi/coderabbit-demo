@@ -42,4 +42,16 @@
     
 }
 
+- (void)shaow4 {
+    
+}
+
+- (void)shaow5 {
+    
+}
+
+- (void)shaow6 {
+    
+}
+
 @end
