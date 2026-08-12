@@ -1,7 +1,18 @@
-language: "en"                      # CodeRabbit 使用英文输出
+# .coderabbit.yaml
 reviews:
   auto_review:
-    enabled: true                   # PR 创建时自动触发审查
+    enabled: true
   base_branches:
-    - main                          # 只有目标分支是 main 的 PR 才审查
-    - develop                       # 只有目标分支是 develop 的 PR 才审查
+    - main
+    - develop
+  
+  # 🔥 关键配置：让 CodeRabbit 对问题发起"需要修改"请求
+  request_changes_workflow: true
+  
+  # 设置审查严格度
+  profile: "assertive"  # chill / assertive / eager
+  
+  # 对特定问题级别采取行动
+  require_approval:
+    - "security"        # 安全问题必须修复
+    - "critical"        # 严重问题必须修复
